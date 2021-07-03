@@ -1,0 +1,29 @@
+baseURL = "https://tivizi.cn/"
+languageCode = "zh-cn"
+title = "Tivizi Jing"
+theme = "hermit"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+  homeSubtitle = "清晨无别事，我再等风,也等你"
+  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/tivizi"
+  [[params.social]]
+    name = "email"
+    url = "mailto:tivizi@qq.com"
+[menu]
+
+  [[menu.main]]
+    name = "发表"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "关于"
+    url = "about/"
+    weight = 20
